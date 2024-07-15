@@ -92,7 +92,7 @@ Replace generated_maze.txt with the path to any maze file you want to solve.
 Example Maze
 Here is an example of a generated maze:
 
-
+```
 21x21* o12
 *********************
 *1*     * *       * *
@@ -115,6 +115,7 @@ Here is an example of a generated maze:
 * * * ***** * * *** *
 *   *       *      2*
 *********************
+```
 After solving, the path is marked, and the solver outputs the number of steps taken to solve the maze.
 
 ## Conclusion
