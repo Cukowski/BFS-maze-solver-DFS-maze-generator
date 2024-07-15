@@ -73,12 +73,13 @@ make
 Alternatively, you can compile them manually:
 
 
-gcc -o maze_solver my_mouse.c main.c -Wall
+gcc -o maze_solver main.c -Wall
 gcc -o maze_generator maze_generator.c -Wall
+
 Running the Maze Generator
 To generate a maze:
 
-./maze_generator
+./maze_generator [rows] [cols]
 The generated maze will be saved to generated_maze.txt.
 
 Running the Maze Solver

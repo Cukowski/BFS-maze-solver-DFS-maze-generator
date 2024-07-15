@@ -73,12 +73,17 @@ void print_maze_to_file(Maze *maze, const char *filename) {
     printf("Maze written to %s\n", filename);
 }
 
-int main() {
+int main(int ac, char** av) {
+    if (ac < 3) {
+        printf("Usage: ./maze generator [rows] [cols]");
+        return 0;
+    }
+    
     srand(time(NULL));
 
     Maze maze;
-    maze.rows = 55; // Adjust this to generate larger or smaller mazes
-    maze.cols = 55; // Adjust this to generate larger or smaller mazes
+    maze.rows = atoi(av[1]); // Adjust this to generate larger or smaller mazes
+    maze.cols = atoi(av[2]); // Adjust this to generate larger or smaller mazes
 
     printf("Generating maze of size %dx%d\n", maze.rows, maze.cols);
     initialize_maze(&maze);
