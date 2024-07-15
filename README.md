@@ -117,5 +117,5 @@ Here is an example of a generated maze:
 *********************
 After solving, the path is marked, and the solver outputs the number of steps taken to solve the maze.
 
-Conclusion
+## Conclusion
 This project provides a simple yet effective implementation of a maze solver and generator using BFS and recursive backtracking. While both algorithms have their trade-offs, they offer a good balance of simplicity and effectiveness for the purposes of maze generation and solving.
