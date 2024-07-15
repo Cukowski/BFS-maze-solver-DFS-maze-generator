@@ -1,5 +1,5 @@
 # BFS maze solver DFS maze generator
- BFS maze solver and DFS maze generator
+Breadth-First Search maze solver and Recursive Backtracking maze generator in C language
 
 ## Overview
 
